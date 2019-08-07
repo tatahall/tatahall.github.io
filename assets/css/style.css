@@ -1,3 +1,6 @@
+header {
+    width: 960px;
+}
 #myname 
 {color: white; 
 font-size: 30px; 
@@ -39,5 +42,33 @@ font-size: 15px;
 border-right: ;
 background-color: ;
 padding-right: ;
+}
+
+#mainbio
+{border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    margin-top: -1%;
+    width: 960px;
+    background-color: #ffffff;
+    
+    
+}
+#aboutme
+{color: #4aaaa5;
+border-bottom: 1px solid #cccccc;
+width: 960px;
+}
+#bio-image
+{display: block;
+    width: 15%;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+#motto
+{margin-top: 0%;
+margin-left: -4%;
+text-align: center;
+font-style: italic;
 }
 
