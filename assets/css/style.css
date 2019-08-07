@@ -1,0 +1,43 @@
+#myname 
+{color: white; 
+font-size: 30px; 
+border: 1px solid #cccccc; 
+background-color: #4aaaa5; 
+height: 75px; width: 25%;
+text-align:;
+width: 25%;
+}
+
+#stupid
+{width: 25%;
+float: right;
+height: 50px;
+padding-bottom: 10%;
+margin-top: -5%;
+text-align: left
+}
+
+#about
+{color: black;
+font-size: 15px;
+border-right: 2px solid #cccccc;
+background-color: #ffffff;
+padding-right: 3px;
+}
+
+#portfolio
+{color: black;
+font-size: 15px;
+border-right: 2px solid #cccccc;
+background-color: #ffffff;
+padding-right: 3px;
+}  
+
+#contact
+{color: black;
+font-size: 15px;
+border-right: ;
+background-color: ;
+padding-right: ;
+}
+
