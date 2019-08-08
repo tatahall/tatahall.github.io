@@ -11,21 +11,33 @@ text-align:;
 width: 25%;
 }
 
-#stupid
-{width: 25%;
-float: right;
-height: 50px;
-padding-bottom: 10%;
-margin-top: -5%;
-text-align: left
-}
+.navbar {
+    list-style-type: none;
+    margin-top: -80px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    float: right;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 #about
 {color: black;
 font-size: 15px;
 border-right: 2px solid #cccccc;
 background-color: #ffffff;
-padding-right: 3px;
+
 }
 
 #portfolio
@@ -33,7 +45,7 @@ padding-right: 3px;
 font-size: 15px;
 border-right: 2px solid #cccccc;
 background-color: #ffffff;
-padding-right: 3px;
+
 }  
 
 #contact
@@ -41,15 +53,18 @@ padding-right: 3px;
 font-size: 15px;
 border-right: ;
 background-color: ;
-padding-right: ;
+
+text-align: left
 }
 
 #mainbio
 {border-top: 2px solid #cccccc;
     border-bottom: 2px solid #cccccc;
     margin-top: -1%;
-    width: 960px;
-    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 25%;
+    align-content: center;
+    background-color: red;
     
     
 }
@@ -72,3 +87,12 @@ text-align: center;
 font-style: italic;
 }
 
+p {text-align: left;
+}
+
+.container
+{background-attachment: fixed;
+background-color: aqua;
+width: 960px;
+
+}
