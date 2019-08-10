@@ -60,16 +60,16 @@ margin-left: 20%;
 background-color: white;
 margin: 15px 80px;
 }
-#mbinside {
 
+#mbinside {
 color: #4aaaa5;
 font-size: 20px;
 margin: 2px 25px 80px;
 padding-top: 10px;
 border-bottom: 1px solid #666666;
 text-align: left;
-
 }
+
 #bio-image
 {display: block;
   width: 15%;
@@ -128,23 +128,120 @@ background-color: #dddddd;
 padding: 0px;
 margin: 0px;
 }
-.container {
-position: relative;
-text-align: center;
-color: white;
+#container{
+  position: absolute;
+  margin-bottom: 80px;
 }
-.centered {
-position: absolute;
-top: 0%;
-left: 50%;
-transform: translate(-50%, -50%);
+
+#container1{
+  position: absolute;
+  margin-bottom: 80px;
 }
-#box1
+#container2{
+  position: absolute;
+  margin-top: 175px;
+}
+#container4{
+  position: absolute;
+  margin-bottom: 80px;
+}
 
-#box2
+#centered {
+  background-color: #4aaaa5;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -30px;
+}
 
-#box3
+#centered {
+  background-color: #4aaaa5;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -30px;
+}
+#centered1 {
+  background-color: #4aaaa5;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -30px;
+}
+#centered2 {
+  background-color: #4aaaa5;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -30px;
+}
+#centered3 {
+  width: 60%; 
+  background-color: #4aaaa5;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 5px;
+  margin-top: -50px;
+  right: -30;
 
-#box4
+}
+#centered4 {
+  width: 60%;
+  background-color: #4aaaa5;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  padding-right: 12px;
+  padding-left: 14px;
+  margin-top: -50px;
+  right: -20;
+}
 
-#box5
+
+#box1{
+  float: left;
+  margin-top: -50px;
+}
+
+#box2{
+  float: right;
+  margin-top: -50px;
+  margin-right: 500px;
+}
+
+#box3 {
+  float: left;
+  margin-top: -50px;
+}
+
+#box4{
+  float:right;
+  margin-top: 123px;
+  margin-right: 340px;
+}
+
+#box5{
+  float: left;
+  margin-top: 300px;
+  margin-left: -12px;
+}
+
+#bigport {
+  margin-left: 100px;
+}
+#pback{
+  background-color: white;
+  margin: 15px 80px 900px;
+  overflow: hidden;
+  height: 900px;
+  }
