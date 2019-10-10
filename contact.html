@@ -1,89 +1,110 @@
-<!-- HTML Bio with CSS -->
-</head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>1.2.9 Exercise</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   
-    <body>
-       
-        <header>
-          <div id="headercontent">
-            <nav>
-                <ul>
-                 <li><a href="index.html" id="about">About</a></li>
-                 <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
-                 <li><a href="contact.html" id="contact">Contact</a></li>
-                </ul>
-            </nav>
-            <h1>Tahnee Hall</h1>
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+        <div id="headercontent">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <h1>Tahnee N. Hall</h1>
+        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="final_2019_resume.pdf">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </header> 
-      <section id="contact">
-      <div id="mbbigbox">
-        <div id=mbback>
-          <div id="mbinside"><h3>Contact</h3></div>
-          <div id="form">
-            <form>
-                    <table>
-                        <tr>
-                          <td>Name</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <input type="text" name="" class="formbox">
-                          </td>
-                        </tr>
-                       <tr>
-                         <td>Email</td>
-                       </tr>
-                       <tr>
-                         <td>
-                           <input type="mail" name="" class="formbox">
-                         </td>
-                       </tr>
-                       <tr>
-                         <td>
-                           Message
-                         </td>
-                       </tr>
-                         <tr>
-                           <td>
-                             <input type="text" name="" id="comments">
-                           </td>
-                         </tr>
-                       <tr>
-                         <td>
-                           <input type="Submit" value="Submit" name="" id="submit">
-                         </td>
-                       </tr>
             
-                    </table>
-       </form>
-       </div>
-       </div>
-       </div>
-   </section>
-   <footer>
-      <p class="linefooter">Linkedin: 
-          <a href="https://www.linkedin.com/in/tahnee-hall-20a144134/" target="blank">Tahnee Hall</a>
-        </p>
-        <p class="linefooter">tnhall2012@hotmail.com</p>
-        <p class="linefooter">Placeholder</p>
-  </footer>
-
+            <div id="bigbox" class="container">
+                <div class="bg-light">
+                    <div class="border border-light">
+                        <div id="innercbox" class="container pb-5 pt-5">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container mb-3">
+                                        <h3 style="color: #4aaaa5">Contact</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputText">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputText">
+                                    </div>    
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputText">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                  
+            <footer class="page-footer font-small blue">
+                <div class="container text-center">
+                     <div class="row">
+                          <div class="col">
+                               <p class="linefooter">tnhall2012@hotmail.com ~ Phone: xxx-xxx-xxxx</p>
+                          </div>
+                     </div>
+                     <div class="row">
+                          <div class="col">
+                               <p class="linefooter">Linkedin:
+                                    <a href="https://www.linkedin.com/in/tahnee-hall-20a144134/" target="blank">Tahnee
+                                         Hall</a> ~ GitHub:
+                                    <a href="https://github.com/tatahall" target="blank">tatahall</a></p>
+                          </div>
+                     </div>
+                     <div class="row">
+                          <div class="col">
+                               <!-- Copyright -->
+                               <p>2019 Copyright</p>
+      
+                          </div>
+                     </div>
+                </div>
+           </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>  
 </body>
-</html>
-      </form>
-
-    </section>
-
-  </div>
-
-</body>
-
 </html>
