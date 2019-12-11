@@ -19,6 +19,25 @@ Links to the Crystal Game
 https://github.com/tatahall/unit-4-game
 https://tatahall.github.io/unit-4-game/
 
-Trivia game links
+Links to TriviaGame
 https://tatahall.github.io/TriviaGame/
 https://github.com/tatahall/TriviaGame
+
+Links to Liribot
+https://github.com/tatahall/liri-node-app
+
+Link to Bamazon
+https://github.com/tatahall/bamazon
+
+Link to FriendFinder
+https://github.com/tatahall/FriendFinder
+https://glacial-lake-08398.herokuapp.com/
+
+Links to Burger
+https://github.com/tatahall/burger
+https://nameless-oasis-98520.herokuapp.com/
+
+Links to Project 2
+https://github.com/JulesDisch/Project-2
+https://evening-stream-85249.herokuapp.com/
+In addition to creating the HTML associated with all pages of the project, I also wrote the readme documentation and provided project management.
